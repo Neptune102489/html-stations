@@ -31,8 +31,7 @@ p {
 }
 
 .card__description {
-
-  display: none;
+  font-size: 12px;
 }
 
 img {
@@ -46,24 +45,23 @@ footer {
   background-color: #fff;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .card__title {
-    font-size: small;
+    font-size: 12px;
   }
 
   .card__description {
-    display: block;
-    font-size: 12px;
+    display: none;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .card__title {
-    font-size: small;
+    font-size: 12px;
   }
 
   .card__description {
-    font-size: small;
+    font-size: 12px;
     text-overflow: ellipsis;
   }
 }
