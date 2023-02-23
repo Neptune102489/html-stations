@@ -57,11 +57,11 @@ footer {
 
 @media (max-width: 768px) {
   .card__title {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .card__description {
-    font-size: 12px;
+    font-size: 10px;
     text-overflow: ellipsis;
   }
 }
