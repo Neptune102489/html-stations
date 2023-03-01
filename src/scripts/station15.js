@@ -14,5 +14,10 @@ function test(userList) {
   function buildFullName(data) {
     return {...data, full_name: `${data.family_name} ${data.first_name}`};
   }
-  return userList.map(buildFullName);
+
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(userList.map(buildFullName));
+    }, 3000);
+  });
 }
